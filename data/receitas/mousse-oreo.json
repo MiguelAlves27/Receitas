@@ -1,0 +1,23 @@
+{
+  "title": "Mousse de Oreo",
+  "description": "",
+  "prepTime": 15,
+  "servings": 6,
+  "difficulty": "fácil",
+  "tags": ["sobremesa", "oreo", "mousse"],
+  "ingredients": [
+        { "name": "Natas para bater (bem frescas)", "quantity": "600", "unit": "ml" },
+        { "name": "Bolacha Oreo", "quantity": 2, "unit": "pack" },
+        { "name": "Folhas de gelatina (sabor neutro)", "quantity": 5, "unit": "un" }
+
+  ],
+  "steps": [
+    "Num processador, triturar as bolachas Oreo até ficarem em pó.",
+    "Bater as natas até ficarem firmes (precisam de estar bem frescas).",
+    "Amolecer as folhas de gelatina em água fria por 5 minutos, depois escorrer e levar ao microondas por 10 segundos para derreter.",
+    "Misturar a gelatina derretida com as natas batidas e envolver bem.",
+    "Juntar a bolacha Oreo e envolver bem.",
+    "Levar ao frigorífico por pelo menos 2 horas antes de servir."
+  ],
+   "notes": "Ao invés de triturar os dois pacotes de bolacha Oreo, pode triturar-se apenas um pacote e meio e o outro partir grosseiramente para ficar com pedaços maiores."
+}

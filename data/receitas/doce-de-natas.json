@@ -1,0 +1,22 @@
+{
+  "title": "Doce de Natas",
+  "description": "Doce cremoso de natas com bolacha Maria.",
+  "prepTime": 15,
+  "servings": 6,
+  "difficulty": "fácil",
+  "tags": ["sobremesa", "bolacha Maria"],
+  "ingredients": [
+        { "name": "Natas para bater (bem frescas)", "quantity": "600", "unit": "ml" },
+        { "name": "Bolacha Maria", "quantity": 200, "unit": "g" },
+        { "name": "Folhas de gelatina (sabor neutro)", "quantity": 5, "unit": "un" }
+
+  ],
+  "steps": [
+    "Num processador, triturar as bolachas Maria até ficarem em pó.",
+    "Bater as natas até ficarem firmes (precisam de estar bem frescas).",
+    "Amolecer as folhas de gelatina em água fria por 5 minutos, depois escorrer e levar ao microondas por 10 segundos para derreter.",
+    "Misturar a gelatina derretida com as natas batidas e envolver bem.",
+    "Num recipiente, colocar o preparado e cobrir com a bolacha Maria no topo.",
+    "Levar ao frigorífico por pelo menos 2 horas antes de servir."
+  ]
+}

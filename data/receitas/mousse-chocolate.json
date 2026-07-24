@@ -1,0 +1,24 @@
+{
+  "title": "Mousse de Chocolate",
+  "description": "Mousse cremosa de chocolate com textura leve e aerada.",
+  "prepTime": 15,
+  "servings": 6,
+  "difficulty": "fácil",
+  "tags": ["sobremesa", "chocolate", "cremoso"],
+  "ingredients": [
+        { "name": "Chocolate picado", "quantity": "100", "unit": "g" },
+        { "name": "Manteiga", "quantity": 1, "unit": "tbsp" },
+        { "name": "Ovos (gema e clara separadas)", "quantity": 5, "unit": "un" },
+        { "name": "Açucar Branco", "quantity": 80, "unit": "g" }
+  ],
+  "steps": [
+    "Levar o chocolate picado juntamente com a manteiga a derreter no microondas e reservar (ir mexendo de vez em quando).",
+    "Bater as gemas com o açúcar",
+    "Bater as claras em castelo até ficarem bem firmes e reservar no frigorífico.",
+    "Misturar o chocolate derretido com as gemas batidas e envolver bem.",
+    "Envolver delicadamente as claras em castelo na mistura de chocolate e gemas (Cuidado para não perder o ar das claras).",
+    "Colocar a mousse numa taça e levar ao frigorífico por pelo menos 2 horas antes de servir."
+  ],
+  "notes": "O açucar pode ser retirado, caso se queira uma mousse menos doce e menos enjoativa."
+
+}
