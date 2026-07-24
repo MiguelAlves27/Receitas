@@ -1,0 +1,27 @@
+{
+  "title": "Bacalhau à Brás",
+  "description": "O clássico de sempre: bacalhau desfiado, batata palha e ovo, tudo bem envolvido.",
+  "prepTime": 30,
+  "servings": 4,
+  "difficulty": "média",
+  "tags": ["peixe", "tradicional", "conforto"],
+  "ingredients": [
+    { "name": "bacalhau demolhado e desfiado", "quantity": 500, "unit": "g" },
+    { "name": "batata palha", "quantity": 300, "unit": "g" },
+    { "name": "ovos", "quantity": 6, "unit": "un" },
+    { "name": "cebola grande, em rodelas finas (ou picada)", "quantity": 400, "unit": "g" },
+    { "name": "dentes de alho picados", "quantity": 2, "unit": "un" },
+    { "name": "azeite", "quantity": 100, "unit": "g" },
+    { "name": "azeitonas pretas", "quantity": 12, "unit": "un" },
+    { "name": "salsa picada", "quantity": 2, "unit": "tbsp" }
+  ],
+  "steps": [
+    "Aquece o azeite numa frigideira grande e refoga a cebola e o alho até ficarem translúcidos, sem deixar queimar.",
+    "Junta o bacalhau desfiado e deixa apurar 5 minutos em lume médio.",
+    "Bate os ovos ligeiramente à parte, tempera com uma pitada de sal (o bacalhau já é salgado, cuidado!!).",
+    "Baixa o lume, junta a batata palha e envolve bem com o bacalhau.",
+    "Adiciona os ovos batidos e mexe continuamente até ficarem cremosos, sem secar demasiado.",
+    "Tira do lume, polvilha com salsa picada e decora com as azeitonas. Serve imediatamente."
+  ],
+  "notes": "O segredo está em tirar do lume mesmo antes do ovo cozinhar por completo, continua a cozinhar com o calor do tacho."
+}
