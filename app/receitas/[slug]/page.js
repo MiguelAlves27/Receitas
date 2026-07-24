@@ -11,8 +11,21 @@ export function generateMetadata({ params }) {
   return { title: `${recipe.title} — O Meu Caderno de Receitas` };
 }
 
+function IngredientRow({ ing }) {
+  return (
+    <li className="flex justify-between gap-3 text-sm border-b border-dashed border-line pb-2">
+      <span className="text-ink/80">{ing.name}</span>
+      <span className="font-mono text-ink/50 whitespace-nowrap">
+        {ing.quantity}
+        {ing.unit ? ` ${ing.unit}` : ''}
+      </span>
+    </li>
+  );
+}
+
 export default function RecipePage({ params }) {
   const recipe = getRecipeBySlug(params.slug);
+  const isGrouped = recipe.ingredients.every((entry) => Array.isArray(entry.items));
 
   return (
     <article>
@@ -42,17 +55,28 @@ export default function RecipePage({ params }) {
       <div className="grid md:grid-cols-[1fr_1.5fr] gap-10">
         <section>
           <h2 className="font-display text-lg text-azulejo mb-4">Ingredientes</h2>
-          <ul className="space-y-2">
-            {recipe.ingredients.map((ing, i) => (
-              <li key={i} className="flex justify-between gap-3 text-sm border-b border-dashed border-line pb-2">
-                <span className="text-ink/80">{ing.name}</span>
-                <span className="font-mono text-ink/50 whitespace-nowrap">
-                  {ing.quantity}
-                  {ing.unit ? ` ${ing.unit}` : ''}
-                </span>
-              </li>
-            ))}
-          </ul>
+          {isGrouped ? (
+            <div className="space-y-5">
+              {recipe.ingredients.map((section, i) => (
+                <div key={i}>
+                  <h3 className="text-xs uppercase tracking-[0.1em] text-ink/50 mb-2">
+                    {section.group}
+                  </h3>
+                  <ul className="space-y-2">
+                    {section.items.map((ing, j) => (
+                      <IngredientRow key={j} ing={ing} />
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <ul className="space-y-2">
+              {recipe.ingredients.map((ing, i) => (
+                <IngredientRow key={i} ing={ing} />
+              ))}
+            </ul>
+          )}
         </section>
 
         <section>

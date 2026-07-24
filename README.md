@@ -59,6 +59,23 @@ Field names are in English so the schema reads consistently regardless of the
 recipe's language; the values themselves (title, description, steps, tags,
 difficulty, ...) are just written in whichever language the recipe is in, currently Portuguese for all of them.
 
+`ingredients` can also be grouped into categories (e.g. for dishes with
+sub-components like a sauce or filling), by nesting flat ingredient lists
+under a `group` label instead of listing them directly:
+
+```json
+"ingredients": [
+  {
+    "group": "Sauce",
+    "items": [
+      { "name": "flour", "quantity": 200, "unit": "g" }
+    ]
+  }
+]
+```
+
+A recipe uses one format or the other, not a mix of both.
+
 The filename becomes the recipe's URL (`/receitas/recipe-name`).
 
 ## Running locally
