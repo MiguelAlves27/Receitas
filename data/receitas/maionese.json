@@ -1,0 +1,17 @@
+{
+  "title": "Maionese Caseira",
+  "description": "",
+  "prepTime": 5,
+  "difficulty": "fácil",
+  "tags": ["maionese", "molho", "ervas"],
+  "ingredients": [
+    { "name": "Ovo", "quantity": 1, "unit": "g" },
+    { "name": "Sal", "quantity": "q.b."},
+    { "name": "Óleo", "quantity": 150, "unit": "ml" }
+  ],
+  "steps": [
+    "Juntar todos os ingredientes num copo alto.",
+    "Triturar os ingredientes com a varinha mágica emulsionar."
+  ],
+    "notes": "Podes adicionar alho picado e ervas (salsa ou coentros) para dar um toque extra de sabor ;)"
+}

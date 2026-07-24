@@ -1,0 +1,43 @@
+{
+  "title": "Bacalhau com Natas",
+  "description": "Bacalhau desfiado com batata palha, envolto em béchamel e natas, gratinado no forno.",
+  "prepTime": 60,
+  "servings": 6,
+  "difficulty": "média",
+  "tags": ["peixe", "tradicional", "forno", "gratinado"],
+  "ingredients": [
+    {
+      "group": "Base",
+      "items": [
+        { "name": "Queijo mozzarella ralado", "quantity": "q.b."},
+        { "name": "Cebola", "quantity": 200, "unit": "g" },
+        { "name": "Dente de alho", "quantity": 2, "unit": "un" },
+        { "name": "Azeite", "quantity": 50, "unit": "g" },
+        { "name": "Bacalhau demolhado, desfiado e bem escorrido", "quantity": 400, "unit": "g" },
+        { "name": "Batata palha", "quantity": 400, "unit": "g" }
+      ]
+    },
+    {
+      "group": "Béchamel",
+      "items": [
+        { "name": "Leite", "quantity": 1, "unit": "L" },
+        { "name": "Farinha", "quantity": 100, "unit": "g" },
+        { "name": "Manteiga", "quantity": 60, "unit": "g" },
+        { "name": "Sal", "quantity": "q.b."},
+        { "name": "Pimenta", "quantity": "q.b." },
+        { "name": "Noz-moscada", "quantity": "q.b."},
+        { "name": "Natas", "quantity": 200, "unit": "g" }
+      ]
+    }
+  ],
+  "steps": [
+    "Pica a cebola e o alho e leva a refogar no azeite, em lume médio, até a cebola ficar translúcida.",
+    "Junta o bacalhau desfiado e envolve bem com o refogado, deixando apurar alguns minutos.",
+    "Num pyrex, dispõe alternadamente camadas de batata palha e do preparado de bacalhau, envolvendo bem com a ajuda de uma espátula.",
+    "Prepara o béchamel: derrete a manteiga num tacho, junta a farinha e mexe bem. Adiciona o leite aos poucos, sem parar de mexer, e tempera com sal, pimenta e noz-moscada. Deixa cozinhar em lume médio, mexendo sempre, até engrossar.",
+    "Junta as natas ao béchamel e mexe bem. Verte sobre o preparado de bacalhau e batata, envolvendo ligeiramente com a espátula.",
+    "Pré-aquece o forno a 180°C.",
+    "Polvilha com o queijo mozzarella e leva ao forno cerca de 20 minutos, até gratinar."
+  ],
+  "notes": "Mexe sempre o béchamel durante a cozedura para não pegar nem formar grumos."
+}

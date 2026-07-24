@@ -1,0 +1,33 @@
+{
+  "title": "Arroz de Pato",
+  "description": "Arroz de forno com carne de pato desfiada, chouriço e bacon, gratinado até corar.",
+  "prepTime": 90,
+  "servings": 6,
+  "difficulty": "média",
+  "tags": ["arroz", "pato", "tradicional", "forno"],
+  "ingredients": [
+    { "name": "cebola", "quantity": 120, "unit": "g" },
+    { "name": "dentes de alho", "quantity": 2, "unit": "un" },
+    { "name": "azeite", "quantity": 30, "unit": "g" },
+    { "name": "vinho branco", "quantity": 200, "unit": "g" },
+    { "name": "cubos de caldo de galinha", "quantity": 2, "unit": "un" },
+    { "name": "pato pequeno (até 1300 g), partido em pedaços pequenos", "quantity": 1, "unit": "un" },
+    { "name": "chouriço de carne", "quantity": "1/2", "unit": "un" },
+    { "name": "bacon", "quantity": 100, "unit": "g" },
+    { "name": "água", "quantity": "q.b.", "unit": "" },
+    { "name": "arroz agulha", "quantity": 350, "unit": "g" },
+    { "name": "salsa, cortada", "quantity": 20, "unit": "g" }
+  ],
+  "steps": [
+    "Pica finamente a cebola e o alho.",
+    "Aquece o azeite num tacho grande e refoga a cebola e o alho até ficarem translúcidos.",
+    "Junta o vinho branco, os cubos de caldo de galinha, o pato em pedaços, o chouriço e o bacon. Tapa e deixa cozinhar em lume brando cerca de 30 minutos, mexendo de vez em quando, até o pato estar bem cozinhado.",
+    "Retira o pato, o chouriço e o bacon do tacho e reserva o molho. Desfia a carne do pato (retirando ossos e pele) e corta o chouriço em rodelas. Reserva.",
+    "Pesa o molho reservado e junta água até perfazer 1000 g no total. Leva a ferver num tacho.",
+    "Junta o arroz ao molho a ferver, tapa e deixa cozer em lume médio cerca de 20 minutos, até o arroz estar cozido e ter absorvido o líquido.",
+    "Pré-aquece o forno a 200°C.",
+    "Coloca o arroz num tabuleiro de barro ou pyrex, mistura a carne desfiada e a salsa cortada, e enfeita por cima com as rodelas de chouriço.",
+    "Leva ao forno até o arroz corar ligeiramente na superfície."
+  ],
+  "notes": "Pode fazer-se com frango ou perna de peru."
+}

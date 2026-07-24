@@ -1,0 +1,38 @@
+{
+  "title": "Bolo de Pera",
+  "description": "Bolo húmido de pera em calda, coberto com um creme de natas e baunilha.",
+  "prepTime": 70,
+  "servings": 8,
+  "difficulty": "fácil",
+  "tags": ["sobremesa", "pera", "bolo"],
+  "ingredients": [
+    {
+      "group": "Massa",
+      "items": [
+        { "name": "ovos", "quantity": 3, "unit": "un" },
+        { "name": "farinha", "quantity": 2, "unit": "chávena" },
+        { "name": "açúcar", "quantity": 2.5, "unit": "chávena" },
+        { "name": "fermento", "quantity": 1, "unit": "c. chá" },
+        { "name": "bicarbonato de sódio", "quantity": 1, "unit": "c. chá" },
+        { "name": "pêra em calda, sem o caldo", "quantity": 1, "unit": "lata" }
+      ]
+    },
+    {
+      "group": "Creme",
+      "items": [
+        { "name": "natas", "quantity": 200, "unit": "g" },
+        { "name": "açúcar", "quantity": "1/3", "unit": "chávena" },
+        { "name": "manteiga", "quantity": 50, "unit": "g" },
+        { "name": "essência de baunilha", "quantity": 1, "unit": "tsp" }
+      ]
+    }
+  ],
+  "steps": [
+    "Pré-aquece o forno a 200°C.",
+    "Triturar a pera em calda escorrida (sem o caldo).",
+    "Misturar todos os ingredientes da massa (ovos, açúcar, farinha, fermento, bicarbonato e a pera triturada) até obteres uma massa homogénea.",
+    "Deita a massa num pyrex untado e leva ao forno cerca de 50 minutos.",
+    "Entretanto, prepara o creme: coloca as natas, o açúcar, a manteiga e a essência de baunilha num tacho e leva ao lume, mexendo sempre, até engrossar.",
+    "Assim que o bolo sair do forno, ainda quente, cobre-o com o creme, também ainda quente."
+  ]
+}

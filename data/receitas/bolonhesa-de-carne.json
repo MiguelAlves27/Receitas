@@ -1,0 +1,41 @@
+{
+  "title": "Esparguete à Bolonhesa",
+  "description": "Molho de carne moída com tomate, servido com esparguete.",
+  "prepTime": 40,
+  "servings": 4,
+  "difficulty": "fácil",
+  "tags": ["carne", "massa", "conforto"],
+  "ingredients": [
+    {
+      "group": "Molho",
+      "items": [
+        { "name": "cebola", "quantity": "1/2", "unit": "un" },
+        { "name": "dentes de alho", "quantity": 3, "unit": "un" },
+        { "name": "azeite", "quantity": 50, "unit": "g" },
+        { "name": "vinho branco", "quantity": 20, "unit": "ml" },
+        { "name": "carne moída", "quantity": 500, "unit": "g" },
+        { "name": "molho de tomate", "quantity": 200, "unit": "ml" },
+        { "name": "sal", "quantity": 1, "unit": "tsp" },
+        { "name": "pimenta preta moída", "quantity": 0.5, "unit": "tsp" },
+        { "name": "manjericão", "quantity": "q.b."}
+      ]
+    },
+    {
+      "group": "Massa",
+      "items": [
+        { "name": "esparguete", "quantity": 400, "unit": "g" },
+        { "name": "água", "quantity": "q.b."},
+        { "name": "sal", "quantity": "q.b."},
+        { "name": "queijo mozzarella, para polvilhar", "quantity": "q.b."}
+      ]
+    }
+  ],
+  "steps": [
+    "Aquece o azeite numa frigideira grande e refoga a cebola e o alho até ficarem translúcidos, sem deixar queimar.",
+    "Junta a carne moída e deixa apurar 5 minutos em lume médio.",
+    "Junta o molho de tomate, tempera com sal, pimenta e manjericão e deixa cozinhar 5 minutos em lume baixo.",
+    "Acrescenta o vinho branco e deixa evaporar o álcool, mexendo de vez em quando. Deixa apurar mais 10 a 15 minutos em lume baixo, até o molho engrossar.",
+    "Entretanto, leva um tacho grande com água e sal (a aguá da cozedura deve ficar bem salgada, quase como a água do mar) a ferver e coze o esparguete.",
+    "Escorre a massa e serve com o molho bolonhesa por cima, polvilhado com queijo mozzarella a gosto."
+  ]
+}

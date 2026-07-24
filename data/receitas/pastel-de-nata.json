@@ -1,0 +1,25 @@
+{
+  "title": "Pastél de Natas",
+  "description": "Típico pastel de Nata em formato de tarde, ideal para dividir com amigos e família.",
+  "prepTime": 15,
+  "difficulty": "fácil",
+  "tags": ["sobremesa", "Pastél de nata", "tarte"],
+  "ingredients": [
+        { "name": "Leite", "quantity": "1/2", "unit": "L" },
+        { "name": "Açucar", "quantity": 200, "unit": "g" },
+        { "name": "Ovos (apenas a gema)", "quantity": 6, "unit": "un" },
+        { "name": "Amido de milho", "quantity": 2, "unit": "tbsp" },
+        { "name": "Massa folhada redonda", "quantity": 1, "unit": "un" }
+
+
+  ],
+  "steps": [
+    "Num tacho, mistura o açucar com o Amido de milho.",
+    "Adiciona o leite e leva ao lume, mexendo sempre até engrossar.",
+    "Quando a mistura estiver espessa, retira adiciona as gemas, mexendo bem e retira do lume.",
+    "Num recipiente, colocar a massa folhada redonda e furar com um garfo.",
+    "Colocar sobre a massa folhada o recheio",
+    "Levar ao forno pré-aquecido a 200ºC até dourar."
+  ],
+  "notes": "Na mistura de leite, açucar e amido de milho podes adicionar canela ou raspa de limão."
+}

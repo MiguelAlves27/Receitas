@@ -1,0 +1,41 @@
+{
+  "title": "Bola de Carne",
+  "description": "Massa de pão recheada com fiambre, chouriço, bacon e queijo, dobrada em camadas e assada no forno.",
+  "prepTime": 75,
+  "servings": 6,
+  "difficulty": "média",
+  "tags": ["salgado", "forno", "fiambre", "queijo"],
+  "ingredients": [
+    {
+      "group": "Massa",
+      "items": [
+        { "name": "água", "quantity": 200, "unit": "g" },
+        { "name": "azeite", "quantity": 30, "unit": "g" },
+        { "name": "sal", "quantity": 1, "unit": "tsp" },
+        { "name": "farinha tipo 65", "quantity": 400, "unit": "g" },
+        { "name": "fermento de padeiro seco", "quantity": 20, "unit": "g" },
+        { "name": "gema de ovo, para pincelar", "quantity": 1, "unit": "un" }
+      ]
+    },
+    {
+      "group": "Recheio",
+      "items": [
+        { "name": "fiambre fatiado", "quantity": 100, "unit": "g" },
+        { "name": "chouriço fatiado", "quantity": 100, "unit": "g" },
+        { "name": "bacon fatiado", "quantity": 100, "unit": "g" },
+        { "name": "queijo fatiado", "quantity": 100, "unit": "g" }
+      ]
+    }
+  ],
+  "steps": [
+    "Aquece ligeiramente a água com o azeite e o sal, até ficar morna.",
+    "Junta a farinha e o fermento e amassa bem, cerca de 8 a 10 minutos, até obteres uma massa lisa e elástica.",
+    "Deixa levedar num local morno cerca de 40 minutos, ou até a massa dobrar de volume.",
+    "Pré-aquece o forno a 220°C e forra um tabuleiro com papel vegetal.",
+    "Numa superfície polvilhada com farinha, estende a massa com um rolo, formando um retângulo.",
+    "Distribui o fiambre, o chouriço, o bacon e o queijo por um terço da massa.",
+    "Dobra esse terço sobre o terço do meio, repete com os restantes ingredientes e volta a dobrar, formando várias camadas.",
+    "Pincela com a gema de ovo e leva ao forno a 220°C cerca de 25 minutos, até dourar."
+  ],
+  "notes": "Depois de pincelar com o ovo, podes fazer uns cortes com uma faca na superfície para decorar."
+}

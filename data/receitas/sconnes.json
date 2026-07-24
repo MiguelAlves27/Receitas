@@ -1,0 +1,24 @@
+{
+  "title": "Sconnes",
+  "description": "Ideal para pequeno-almoço ou lanche.",
+  "prepTime": 5,
+  "servings": 6,
+  "difficulty": "fácil",
+  "tags": ["sobremesa", "sconnes", "pequeno-almoço"],
+  "ingredients": [
+        { "name": "Farinha", "quantity": 250, "unit": "g" },
+        { "name": "Leite", "quantity": 100, "unit": "g" },
+        { "name": "Manteiga", "quantity": 30, "unit": "g" },
+        { "name": "Açucar", "quantity": 50, "unit": "g" },
+        { "name": "Ovo", "quantity": 1, "unit": "un" },
+        { "name": "Fermento em pó", "quantity": 1, "unit": "tsp" },
+        { "name": "Sal", "quantity": "q.b."}
+
+
+  ],
+  "steps": [
+    "Num recipiente, misturar todos os ingredientes até obter uma massa homogénea.",
+    "Num tabuleiro forrado com papel vegetal, colocar a massa em pequenas porções, moldando em forma de sconnes.",
+    "Levar ao forno pré-aquecido a 200ºC durante 10-15 minutos, ou até ficarem dourados."
+  ]
+}

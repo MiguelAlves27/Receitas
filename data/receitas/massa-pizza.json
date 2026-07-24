@@ -1,0 +1,21 @@
+{
+  "title": "Massa de Pizza",
+  "description": "A massa perfeita para a tua pizza caseira.",
+  "prepTime": 10,
+  "difficulty": "fácil",
+  "tags": ["pizza", "massa", "conforto"],
+  "ingredients": [
+    { "name": "Farinha", "quantity": 400, "unit": "g" },
+    { "name": "Água", "quantity": 200, "unit": "ml" },
+    { "name": "Fermento padeiro seco", "quantity": 5, "unit": "g" },
+    { "name": "Sal", "quantity": 1, "unit": "tsp" },
+    { "name": "Azeite", "quantity": 50, "unit": "g" }
+  ],
+  "steps": [
+    "Aquecer ligeiramente a água com o azeite e o sal.",
+    "Acrescentar o fermento e a farinha e envolver.",
+    "Deixar a massa repousar por 30 minutos.",
+    "Estender a massa fina e rechear a gosto."
+  ],
+  "notes": "Se a massa estiver muito pegajosa, adicionar um pouco mais de farinha."
+}

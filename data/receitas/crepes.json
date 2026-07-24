@@ -1,0 +1,27 @@
+{
+  "title": "Massa de Crepes",
+  "description": "",
+  "prepTime": 5,
+  "difficulty": "fácil",
+  "tags": ["sobremesa", "Crepes", "massa"],
+  "ingredients": [
+        { "name": "Farinha", "quantity": 100, "unit": "g" },
+        { "name": "Açucar", "quantity": 1, "unit": "tbsp" },
+        { "name": "Leite", "quantity": 2, "unit": "dl" },
+        { "name": "Ovo", "quantity": 1, "unit": "un" },
+        { "name": "Margarina", "quantity": 1, "unit": "tsp" },
+        { "name": "Sal", "quantity": "q.b."}
+
+
+  ],
+  "steps": [
+    "Misturar a farinha com o açucar.",
+    "Adicionar o leite ligeiramente batido com o ovo e mexer com uma vara de arames.",
+    "Acrescentar a margarina derretida e temperar com uma pitada de sal e mexer bem.",
+    "Bater com uma vara de arames até obter uma massa lisa e sem grumos.",
+    "Deixar repousar por 30 minutos (evita que a massa fique elástica).",
+    "Numa frigideira antiaderente, aquecer e quando estiver bem quente colocar a massa.",
+    "Quando estiver dourada, virar o crepe e deixar cozinhar do outro lado."
+  ],
+  "notes": "Na massa podes adicionar canela ou raspa de limão."
+}
