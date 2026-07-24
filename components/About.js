@@ -38,8 +38,9 @@ const photos = [
   },
   {
     src: '/images/miguel/miguel-amigos-jantar.jpeg',
-    alt: 'Jantar com amigos (desta vez não era comida Portuguesa)',
+    alt: 'Jantar com amigos',
     caption: 'amigos',
+    wide: true,
   },
   {
     src: '/images/miguel/miguel-formatura-tecnico.jpeg',
@@ -61,13 +62,21 @@ export default function About() {
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3">
         {photos.map((photo) => (
-          <figure key={photo.src}>
-            <div className="relative aspect-[3/4] overflow-hidden rounded-sm bg-line">
+          <figure key={photo.src} className={photo.wide ? 'col-span-2' : undefined}>
+            <div
+              className={`relative overflow-hidden rounded-sm bg-line ${
+                photo.wide ? 'aspect-[3/2]' : 'aspect-[3/4]'
+              }`}
+            >
               <Image
                 src={photo.src}
                 alt={photo.alt}
                 fill
-                sizes="(min-width: 1024px) 140px, (min-width: 640px) 200px, 45vw"
+                sizes={
+                  photo.wide
+                    ? '(min-width: 1024px) 296px, (min-width: 640px) 416px, 90vw'
+                    : '(min-width: 1024px) 140px, (min-width: 640px) 200px, 45vw'
+                }
                 className="object-cover"
               />
             </div>
