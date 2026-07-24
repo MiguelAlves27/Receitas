@@ -28,21 +28,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-PT" className={`${fraunces.variable} ${inter.variable} ${plexMono.variable}`}>
-      <body className="font-body text-ink min-h-screen">
+      <body className="font-body text-ink min-h-screen bg-paper">
         <header className="border-b border-line">
           <div className="max-w-5xl mx-auto px-6 py-8 flex items-center justify-between">
             <a href="/" className="group">
-              <p className="text-xs tracking-[0.2em] uppercase text-azulejo/70 mb-1">
+              <p className="text-xs tracking-[0.2em] uppercase text-accent/80 mb-1">
                 caderno nº1
               </p>
-              <h1 className="font-display italic text-2xl md:text-3xl text-ink group-hover:text-azulejo transition-colors">
+              <h1 className="font-display italic text-2xl md:text-3xl text-ink group-hover:text-accent transition-colors">
                 O Meu Caderno de Receitas
               </h1>
             </a>
           </div>
         </header>
         <main className="max-w-5xl mx-auto px-6 py-10">{children}</main>
-        <footer className="max-w-5xl mx-auto px-6 py-10 text-sm text-ink/50 border-t border-line mt-16">
+        <footer className="max-w-5xl mx-auto px-6 py-10 text-sm text-ink/40 border-t border-line mt-16">
           Feito à mão, prato a prato.
         </footer>
       </body>

@@ -7,14 +7,13 @@ html {
 }
 
 body {
-  background-color: #F1ECE1;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Cpath d='M0 20 L20 0 L40 20 L20 40 Z' fill='none' stroke='%232B5876' stroke-opacity='0.06' stroke-width='1'/%3E%3C/svg%3E");
+  background-color: #FAFAF9;
 }
 
 /* Foco visível para acessibilidade (teclado) */
 a:focus-visible,
 button:focus-visible {
-  outline: 2px solid #E3A63E;
+  outline: 2px solid #B5432B;
   outline-offset: 3px;
 }
 
@@ -23,8 +22,4 @@ button:focus-visible {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
   }
-}
-
-.card-stitch {
-  border: 1px dashed #D8CFBD;
 }
