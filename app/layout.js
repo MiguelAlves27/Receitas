@@ -32,9 +32,6 @@ export default function RootLayout({ children }) {
         <header className="border-b border-line">
           <div className="max-w-5xl mx-auto px-6 py-8 flex items-center justify-between">
             <a href="/" className="group">
-              <p className="text-xs tracking-[0.2em] uppercase text-accent/80 mb-1">
-                caderno nº1
-              </p>
               <h1 className="font-display italic text-2xl md:text-3xl text-ink group-hover:text-accent transition-colors">
                 Receitas do Miguel
               </h1>

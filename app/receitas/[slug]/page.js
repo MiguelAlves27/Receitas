@@ -30,7 +30,7 @@ export default function RecipePage({ params }) {
   return (
     <article>
       <Link href="/" className="text-sm text-accent hover:underline mb-6 inline-block">
-        ← voltar ao caderno
+        ← voltar à página inicial
       </Link>
 
       <header className="mb-8 pb-6 border-b border-line">
