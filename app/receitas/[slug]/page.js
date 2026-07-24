@@ -43,7 +43,7 @@ export default function RecipePage({ params }) {
         <p className="text-ink/70 max-w-xl leading-relaxed mb-4">{recipe.description}</p>
         <div className="flex flex-wrap items-center gap-4 font-mono text-sm text-ink/60">
           <span>⏱ {recipe.prepTime} min</span>
-          <span>🍽 {recipe.servings} porções</span>
+          {recipe.servings && <span>🍽 {recipe.servings} porções</span>}
         </div>
         <div className="flex flex-wrap gap-1.5 mt-4">
           {(recipe.tags || []).map((tag) => (
