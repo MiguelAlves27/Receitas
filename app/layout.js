@@ -21,8 +21,8 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata = {
-  title: 'O Meu Caderno de Receitas',
-  description: 'Receitas de culinária guardadas e organizadas — feito à mão, prato a prato.',
+  title: 'Receitas do Miguel',
+  description: 'Livro de receitas que fui aprendendo ;).',
 };
 
 export default function RootLayout({ children }) {
@@ -36,15 +36,12 @@ export default function RootLayout({ children }) {
                 caderno nº1
               </p>
               <h1 className="font-display italic text-2xl md:text-3xl text-ink group-hover:text-accent transition-colors">
-                O Meu Caderno de Receitas
+                Receitas do Miguel
               </h1>
             </a>
           </div>
         </header>
         <main className="max-w-5xl mx-auto px-6 py-10">{children}</main>
-        <footer className="max-w-5xl mx-auto px-6 py-10 text-sm text-ink/40 border-t border-line mt-16">
-          Feito à mão, prato a prato.
-        </footer>
       </body>
     </html>
   );

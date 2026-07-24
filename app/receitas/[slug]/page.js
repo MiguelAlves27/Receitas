@@ -8,7 +8,7 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }) {
   const recipe = getRecipeBySlug(params.slug);
-  return { title: `${recipe.title} — O Meu Caderno de Receitas` };
+  return { title: `${recipe.title} — Receitas do Miguel` };
 }
 
 function IngredientRow({ ing }) {
