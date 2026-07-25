@@ -13,74 +13,88 @@ const bio = [
 const photos = [
   {
     src: '/images/miguel/miguel-escuteiro.jpeg',
-    alt: 'Campo escutista Pedra Amarela em Sintra',
-    caption: 'escutismo',
+    caption: 'Num campo de escuteiros, na Pedra Amarela, em Sintra',
   },
   {
     src: '/images/miguel/miguel-amigos-estocolmo.jpeg',
-    alt: 'Com amigos em Estocolmo, durante o Erasmus',
-    caption: 'erasmus',
+    caption: 'Com amigos, em Estocolmo, durante o Erasmus',
   },
   {
     src: '/images/miguel/miguel-aurora-boreal.jpeg',
-    alt: 'Em Erasmus, a ver pela primeira vez uma aurora boreal',
-    caption: 'aurora boreal',
+    caption: 'A ver pela primeira vez uma aurora boreal, na Lapónia',
   },
   {
     src: '/images/miguel/miguel-circulo-artico.jpeg',
-    alt: 'No Círculo Polar Ártico e perto da Casa do Pai Natal, na Lapónia',
-    caption: 'círculo ártico',
+    caption: 'No Círculo Polar Ártico, perto da Casa do Pai Natal',
   },
   {
     src: '/images/miguel/miguel-caes-treno.jpeg',
-    alt: 'Cães da Neve, em Abisko',
-    caption: 'lapónia',
+    caption: 'Com os cães de trenó, em Abisko',
   },
   {
     src: '/images/miguel/miguel-amigos-jantar.jpeg',
-    alt: 'Jantar com amigos',
-    caption: 'amigos',
+    caption: 'Um jantar com amigos',
     wide: true,
   },
   {
     src: '/images/miguel/miguel-formatura-tecnico.jpeg',
-    alt: 'Dia da minha defesa de tese no mestrado sobre Agentic AI',
-    caption: 'data & ai engineer',
+    caption: 'No dia da defesa da tese de mestrado, sobre Agentic AI',
   },
 ];
 
+// Pequena rotação alternada por foto, para dar o efeito de fotos espalhadas
+// numa mesa/cortiça em vez de alinhadas numa grelha perfeita.
+const ROTATIONS = [
+  '-rotate-3',
+  'rotate-2',
+  'rotate-3',
+  '-rotate-2',
+  'rotate-1',
+  '-rotate-3',
+  'rotate-2',
+];
+
 export default function About() {
+  const [intro, ...rest] = bio;
+
   return (
     <section>
-      <p className="text-xs tracking-[0.2em] uppercase text-accent/80 mb-4">sobre mim</p>
+      <p className="text-xs tracking-[0.25em] uppercase text-accent font-semibold mb-4">
+        sobre mim
+      </p>
 
-      <div className="max-w-2xl text-ink/80 leading-relaxed space-y-4 mb-10">
-        {bio.map((paragraph, i) => (
+      <p className="font-display italic text-2xl md:text-3xl text-ink leading-snug max-w-2xl mb-6">
+        {intro}
+      </p>
+
+      <div className="max-w-2xl text-ink/80 leading-relaxed space-y-4 mb-20">
+        {rest.map((paragraph, i) => (
           <p key={i}>{paragraph}</p>
         ))}
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3">
-        {photos.map((photo) => (
-          <figure key={photo.src} className={photo.wide ? 'col-span-2' : undefined}>
+      <div className="columns-2 sm:columns-3 lg:columns-4 gap-8">
+        {photos.map((photo, i) => (
+          <figure
+            key={photo.src}
+            className={`mb-8 break-inside-avoid bg-white p-3 pb-5 rounded-sm shadow-xl ring-1 ring-black/5 ${
+              ROTATIONS[i % ROTATIONS.length]
+            } hover:rotate-0 hover:scale-105 hover:shadow-2xl hover:z-20 relative transition-all duration-300 ease-out`}
+          >
             <div
-              className={`relative overflow-hidden rounded-sm bg-line ${
+              className={`relative overflow-hidden bg-line ${
                 photo.wide ? 'aspect-[3/2]' : 'aspect-[3/4]'
               }`}
             >
               <Image
                 src={photo.src}
-                alt={photo.alt}
+                alt={photo.caption}
                 fill
-                sizes={
-                  photo.wide
-                    ? '(min-width: 1024px) 296px, (min-width: 640px) 416px, 90vw'
-                    : '(min-width: 1024px) 140px, (min-width: 640px) 200px, 45vw'
-                }
+                sizes="(min-width: 1024px) 300px, (min-width: 640px) 33vw, 45vw"
                 className="object-cover"
               />
             </div>
-            <figcaption className="mt-2 text-[0.65rem] tracking-wide uppercase text-ink/40 font-mono">
+            <figcaption className="mt-3 text-center font-display italic text-base text-ink/80 leading-snug">
               {photo.caption}
             </figcaption>
           </figure>
