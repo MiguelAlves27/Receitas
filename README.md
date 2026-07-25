@@ -110,9 +110,8 @@ The project is configured for automatic deployment on Vercel on every push to
 
 ### AI / data differentiators
 
-- [ ] Pantry assistant: suggest recipes from a free-text list of ingredients
-      the user already has at home
-- [ ] Automatic nutrition breakdown per recipe (calories, macros), via a
-      nutrition API or a small in-house estimation model
-- [ ] "Similar recipes" recommendations using simple embeddings over
-      ingredients/description (small ML/retrieval component)
+- [ ] Pantry assistant: suggest recipes from a free-text list of ingredients the user already has at home
+- [ ] Automatic nutrition breakdown per recipe (calories, macros), via a nutrition API or a small in-house estimation model
+- [ ] "Similar recipes" recommendations using simple embeddings over ingredients/description (small ML/retrieval component)
+- [ ] Recipe-card OCR: photograph a handwritten or printed recipe card and have a vision model extract it directly into the site's JSON schema
+- [ ] A small classical ML baseline (e.g. scikit-learn) predicting recipe difficulty from structured features (ingredient count, step count, prep time)
