@@ -13,15 +13,15 @@ const bio = [
 const photos = [
   {
     src: '/images/miguel/miguel-escuteiro.jpeg',
-    caption: 'Num campo de escuteiros, na Pedra Amarela, em Sintra',
+    caption: 'Campo de escutista Pedra Amarela, em Sintra',
   },
   {
     src: '/images/miguel/miguel-amigos-estocolmo.jpeg',
-    caption: 'Com amigos, em Estocolmo, durante o Erasmus',
+    caption: 'A conhecer a capital do meu país de Erasmus',
   },
   {
     src: '/images/miguel/miguel-aurora-boreal.jpeg',
-    caption: 'A ver pela primeira vez uma aurora boreal, na Lapónia',
+    caption: 'A ver pela primeira vez uma aurora boreal, na Lapónia Sueca',
   },
   {
     src: '/images/miguel/miguel-circulo-artico.jpeg',
@@ -29,11 +29,11 @@ const photos = [
   },
   {
     src: '/images/miguel/miguel-caes-treno.jpeg',
-    caption: 'Com os cães de trenó, em Abisko',
+    caption: 'Com Huskys, cães da neve, em Abisko',
   },
   {
     src: '/images/miguel/miguel-amigos-jantar.jpeg',
-    caption: 'Um jantar com amigos',
+    caption: 'Um jantar com os meus melhores amigos',
     wide: true,
   },
   {
@@ -55,29 +55,23 @@ const ROTATIONS = [
 ];
 
 export default function About() {
-  const [intro, ...rest] = bio;
-
   return (
     <section>
       <p className="text-xs tracking-[0.25em] uppercase text-accent font-semibold mb-4">
         sobre mim
       </p>
 
-      <p className="font-display italic text-2xl md:text-3xl text-ink leading-snug max-w-2xl mb-6">
-        {intro}
-      </p>
-
       <div className="max-w-2xl text-ink/80 leading-relaxed space-y-4 mb-20">
-        {rest.map((paragraph, i) => (
+        {bio.map((paragraph, i) => (
           <p key={i}>{paragraph}</p>
         ))}
       </div>
 
-      <div className="columns-2 sm:columns-3 lg:columns-4 gap-8">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8 grid-flow-row-dense">
         {photos.map((photo, i) => (
           <figure
             key={photo.src}
-            className={`mb-8 break-inside-avoid bg-white p-3 pb-5 rounded-sm shadow-xl ring-1 ring-black/5 ${
+            className={`${photo.wide ? 'col-span-2' : ''} bg-white p-3 pb-5 rounded-sm shadow-xl ring-1 ring-black/5 ${
               ROTATIONS[i % ROTATIONS.length]
             } hover:rotate-0 hover:scale-105 hover:shadow-2xl hover:z-20 relative transition-all duration-300 ease-out`}
           >
@@ -90,7 +84,11 @@ export default function About() {
                 src={photo.src}
                 alt={photo.caption}
                 fill
-                sizes="(min-width: 1024px) 300px, (min-width: 640px) 33vw, 45vw"
+                sizes={
+                  photo.wide
+                    ? '(min-width: 1024px) 620px, (min-width: 640px) 66vw, 90vw'
+                    : '(min-width: 1024px) 300px, (min-width: 640px) 33vw, 45vw'
+                }
                 className="object-cover"
               />
             </div>
