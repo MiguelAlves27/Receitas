@@ -96,7 +96,7 @@ The project is configured for automatic deployment on Vercel on every push to
 
 ### Product
 
-- [ ] Search and filtering by tag / prep time
+- [x] Search and filtering by tag / prep time
 - [ ] Ingredient scaling by number of servings
 - [ ] Multi-language support: an LLM translation agent that generates
       per-locale copies of each recipe's text fields (title, description,

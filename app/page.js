@@ -1,16 +1,15 @@
 import RecipesExplorer from '../components/RecipesExplorer';
-import { getAllRecipes, getAllTags } from '../lib/recipes';
+import { getAllRecipes } from '../lib/recipes';
 
 export default function HomePage() {
   const recipes = getAllRecipes();
-  const allTags = getAllTags();
 
   return (
     <div>
       <div className="mb-8">
-        <p className="text-xs tracking-[0.2em] uppercase text-accent/80 mb-2">o livro de receitas</p>
+        <p className="text-xs tracking-[0.2em] uppercase text-accent/80 mb-2">Livro de receitas</p>
         <h1 className="font-display italic text-3xl md:text-4xl text-ink">
-          O que se vai cozinhar hoje?
+          O que vais cozinhar hoje?
         </h1>
       </div>
 
@@ -20,7 +19,7 @@ export default function HomePage() {
           <code className="font-mono">data/receitas</code> para começares.
         </p>
       ) : (
-        <RecipesExplorer recipes={recipes} allTags={allTags} />
+        <RecipesExplorer recipes={recipes} />
       )}
     </div>
   );

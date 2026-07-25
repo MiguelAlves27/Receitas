@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import RecipeCard from './RecipeCard';
-import { ALL_DIFFICULTIES, tagColor } from '../lib/colors';
+import { ALL_DIFFICULTIES, FILTER_TAGS, tagColor } from '../lib/colors';
 
 function normalize(text) {
   return text
@@ -11,10 +11,17 @@ function normalize(text) {
     .toLowerCase();
 }
 
-export default function RecipesExplorer({ recipes, allTags }) {
+const PREP_TIME_RANGES = [
+  { label: '≤ 15 min', min: 0, max: 15 },
+  { label: '15–40 min', min: 15, max: 40 },
+  { label: '> 40 min', min: 40, max: Infinity },
+];
+
+export default function RecipesExplorer({ recipes }) {
   const [query, setQuery] = useState('');
-  const [activeTags, setActiveTags] = useState([]);
+  const [activeTag, setActiveTag] = useState(null);
   const [activeDifficulty, setActiveDifficulty] = useState(null);
+  const [activePrepTime, setActivePrepTime] = useState(null);
 
   const filtered = useMemo(() => {
     const q = normalize(query.trim());
@@ -23,10 +30,12 @@ export default function RecipesExplorer({ recipes, allTags }) {
       if (activeDifficulty && (recipe.difficulty || 'fácil') !== activeDifficulty) {
         return false;
       }
-      if (activeTags.length > 0) {
-        const recipeTags = recipe.tags || [];
-        const hasAllTags = activeTags.every((tag) => recipeTags.includes(tag));
-        if (!hasAllTags) return false;
+      if (activePrepTime) {
+        const prepTime = recipe.prepTime ?? 0;
+        if (prepTime <= activePrepTime.min || prepTime > activePrepTime.max) return false;
+      }
+      if (activeTag && !(recipe.tags || []).includes(activeTag)) {
+        return false;
       }
       if (q) {
         const haystack = normalize(
@@ -36,25 +45,28 @@ export default function RecipesExplorer({ recipes, allTags }) {
       }
       return true;
     });
-  }, [recipes, query, activeTags, activeDifficulty]);
+  }, [recipes, query, activeTag, activeDifficulty, activePrepTime]);
 
   function toggleTag(tag) {
-    setActiveTags((prev) =>
-      prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]
-    );
+    setActiveTag((prev) => (prev === tag ? null : tag));
   }
 
   function toggleDifficulty(difficulty) {
     setActiveDifficulty((prev) => (prev === difficulty ? null : difficulty));
   }
 
-  function clearFilters() {
-    setQuery('');
-    setActiveTags([]);
-    setActiveDifficulty(null);
+  function togglePrepTime(range) {
+    setActivePrepTime((prev) => (prev?.label === range.label ? null : range));
   }
 
-  const hasActiveFilters = query || activeTags.length > 0 || activeDifficulty;
+  function clearFilters() {
+    setQuery('');
+    setActiveTag(null);
+    setActiveDifficulty(null);
+    setActivePrepTime(null);
+  }
+
+  const hasActiveFilters = query || activeTag || activeDifficulty || activePrepTime;
 
   return (
     <div>
@@ -91,12 +103,32 @@ export default function RecipesExplorer({ recipes, allTags }) {
         ))}
       </div>
 
+      <div className="flex flex-wrap items-center gap-2 mb-3">
+        <span className="text-xs uppercase tracking-[0.15em] text-ink/40 font-mono mr-1">
+          tempo de preparação
+        </span>
+        {PREP_TIME_RANGES.map((range) => (
+          <button
+            key={range.label}
+            type="button"
+            onClick={() => togglePrepTime(range)}
+            className={`text-xs font-semibold uppercase tracking-[0.08em] rounded-full px-3 py-1.5 border transition-colors ${
+              activePrepTime?.label === range.label
+                ? 'bg-accent text-white border-accent'
+                : 'bg-white text-ink/60 border-line hover:border-accent/40'
+            }`}
+          >
+            {range.label}
+          </button>
+        ))}
+      </div>
+
       <div className="flex flex-wrap items-center gap-2 mb-8">
         <span className="text-xs uppercase tracking-[0.15em] text-ink/40 font-mono mr-1">
           tags
         </span>
-        {allTags.map((tag) => {
-          const active = activeTags.includes(tag);
+        {FILTER_TAGS.map((tag) => {
+          const active = activeTag === tag;
           const color = tagColor(tag);
           return (
             <button
