@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#18181B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- pom do chapeu -->
+  <path d="M18 46 C10 46 8 34 16 30 C14 20 26 16 32 22 C38 16 50 20 48 30 C56 34 54 46 46 46 Z"/>
+
+  <!-- pregas -->
+  <path d="M23 34 Q21 38 23 42"/>
+  <path d="M32 33 L32 43"/>
+  <path d="M41 34 Q43 38 41 42"/>
+
+  <!-- banda -->
+  <rect x="18" y="46" width="28" height="14" rx="2"/>
+  <line x1="18" y1="52" x2="46" y2="52"/>
+</svg>
