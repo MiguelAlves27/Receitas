@@ -51,7 +51,7 @@ const photos = [
 
 export default function About() {
   return (
-    <section className="mb-14 pb-14 border-b border-line">
+    <section>
       <p className="text-xs tracking-[0.2em] uppercase text-accent/80 mb-4">sobre mim</p>
 
       <div className="max-w-2xl text-ink/80 leading-relaxed space-y-4 mb-10">

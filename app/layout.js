@@ -1,4 +1,5 @@
 import { Fraunces, Inter, IBM_Plex_Mono } from 'next/font/google';
+import Link from 'next/link';
 import './globals.css';
 
 const fraunces = Fraunces({
@@ -29,13 +30,19 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-PT" className={`${fraunces.variable} ${inter.variable} ${plexMono.variable}`}>
       <body className="font-body text-ink min-h-screen bg-paper">
-        <header className="border-b border-line">
-          <div className="max-w-5xl mx-auto px-6 py-8 flex items-center justify-between">
-            <a href="/" className="group">
+        <header className="border-b-2 border-accent bg-white">
+          <div className="max-w-5xl mx-auto px-6 py-6 flex items-center justify-between">
+            <Link href="/" className="group">
               <h1 className="font-display italic text-2xl md:text-3xl text-ink group-hover:text-accent transition-colors">
                 Receitas do Miguel
               </h1>
-            </a>
+            </Link>
+            <Link
+              href="/sobre"
+              className="text-sm font-semibold text-white bg-accent hover:bg-accentDark rounded-full px-4 py-2 transition-colors"
+            >
+              Sobre mim
+            </Link>
           </div>
         </header>
         <main className="max-w-5xl mx-auto px-6 py-10">{children}</main>

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { getAllSlugs, getRecipeBySlug } from '../../../lib/recipes';
 import Tag from '../../../components/Tag';
+import DifficultyBadge from '../../../components/DifficultyBadge';
 
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -29,14 +30,17 @@ export default function RecipePage({ params }) {
 
   return (
     <article>
-      <Link href="/" className="text-sm text-accent hover:underline mb-6 inline-block">
-        ← voltar à página inicial
+      <Link
+        href="/"
+        className="text-sm font-medium text-accent hover:underline mb-6 inline-flex items-center gap-1"
+      >
+        ← voltar às receitas
       </Link>
 
       <header className="mb-8 pb-6 border-b border-line">
-        <p className="text-xs uppercase tracking-[0.15em] text-accent mb-2">
-          {recipe.difficulty || 'fácil'}
-        </p>
+        <div className="mb-3">
+          <DifficultyBadge difficulty={recipe.difficulty} />
+        </div>
         <h1 className="font-display italic text-3xl md:text-4xl text-ink mb-3">
           {recipe.title}
         </h1>
@@ -84,10 +88,10 @@ export default function RecipePage({ params }) {
           <ol className="space-y-4">
             {recipe.steps.map((step, i) => (
               <li key={i} className="flex gap-4">
-                <span className="font-mono text-accent/70 text-sm shrink-0">
-                  {String(i + 1).padStart(2, '0')}
+                <span className="flex items-center justify-center h-6 w-6 shrink-0 rounded-full bg-accentSoft text-accentDark font-mono text-xs font-semibold">
+                  {i + 1}
                 </span>
-                <span className="text-sm text-ink/80 leading-relaxed">{step}</span>
+                <span className="text-sm text-ink/80 leading-relaxed pt-0.5">{step}</span>
               </li>
             ))}
           </ol>
