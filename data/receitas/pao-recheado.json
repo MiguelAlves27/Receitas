@@ -1,0 +1,21 @@
+{
+  "title": "Pão Recheado",
+  "description": "",
+  "prepTime": 20,
+  "servings": 10,
+  "difficulty": "fácil",
+  "tags": ["entrada", "bacon", "queijo"],
+  "ingredients": [
+        { "name": "Pão de Rio Maior", "quantity": 1, "unit": "un" },
+        { "name": "Queijo Mozzarela Ralado", "quantity": 200, "unit": "g" },
+        { "name": "Bacon", "quantity": 100, "unit": "g" },
+        { "name": "Maionese", "quantity": 150, "unit": "g" }
+
+  ],
+  "steps": [
+    "Remover o miolo do pão e deixar em forma de 'taça'",
+    "Misturar a maionese, o queijo e o bacon numa tigela.",
+    "Colocar o preparado dentro do pão e levar ao forno a 160°C por 15 minutos até dourar."
+  ],
+  "notes": "Podes usar o miolo do pão para fazer 'tostas caseiras', basta levar ao forno com o pão."
+}
