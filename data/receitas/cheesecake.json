@@ -1,0 +1,30 @@
+{
+  "title": "Cheesecake",
+  "description": "",
+  "prepTime": 30,
+  "servings": 8,
+  "difficulty": "média",
+  "tags": ["sobremesa", "frutos vermelhos"],
+  "ingredients": [
+        { "name": "Bolacha Maria", "quantity": 400, "unit": "g" },
+        { "name": "Manteiga", "quantity": 200, "unit": "g" },
+        { "name": "Queijo Philadelphia", "quantity": 300, "unit": "g" },
+        { "name": "Natas", "quantity": 400, "unit": "ml" },
+        { "name": "Açúcar em pó", "quantity": 100, "unit": "g" },
+        { "name": "Folhas de gelatina", "quantity": 4, "unit": "un" },
+        { "name": "Aroma de baunilha", "quantity": 1, "unit": "c. café" },
+        { "name": "Doce de frutos vermelhos", "quantity": 150, "unit": "g" }
+
+  ],
+  "steps": [
+    "Triturar finamente as bolachas, juntar a manteiga derretida e misturar bem.",
+    "Colocar numa forma de aro amovível com 16 cm e espalhar em toda a superfície, pressionando bem.",
+    "Bater o queijo Philadelphia com as natas até obter uma mistura fofa e leve.",
+    "Juntar o açúcar e o aroma de baunilha e bater mais um pouco.",
+    "Demolhar a gelatina em água fria, escorrer bem e aquecer um pouco no microondas para derreter.",
+    "Incorporar a gelatina no creme de queijo, batendo mais um pouco.",
+    "Verter o preparado por cima da camada de bolacha e levar ao frigorífico  até ficar bem firme.",
+    "Retirar e espalhar por cima o doce de frutos vermelhos, com cuidado para não se misturar com o creme."
+  ],
+  "notes": "Tempo total de frigorífico: cerca de 8 horas. Idealmente preparar de véspera."
+}
