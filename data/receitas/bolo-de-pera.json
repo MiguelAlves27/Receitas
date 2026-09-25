@@ -11,7 +11,7 @@
       "items": [
         { "name": "ovos", "quantity": 3, "unit": "un" },
         { "name": "farinha", "quantity": 2, "unit": "chávena" },
-        { "name": "açúcar", "quantity": 2.5, "unit": "chávena" },
+        { "name": "açúcar", "quantity": 2, "unit": "chávena" },
         { "name": "fermento", "quantity": 1, "unit": "c. chá" },
         { "name": "bicarbonato de sódio", "quantity": 1, "unit": "c. chá" },
         { "name": "pêra em calda, sem o caldo", "quantity": 1, "unit": "lata" }
@@ -21,7 +21,7 @@
       "group": "Creme",
       "items": [
         { "name": "natas", "quantity": 200, "unit": "g" },
-        { "name": "açúcar", "quantity": "1/3", "unit": "chávena" },
+        { "name": "açúcar", "quantity": "1/2", "unit": "chávena" },
         { "name": "manteiga", "quantity": 50, "unit": "g" },
         { "name": "essência de baunilha", "quantity": 1, "unit": "tsp" }
       ]
