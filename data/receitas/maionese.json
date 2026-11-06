@@ -1,17 +1,18 @@
 {
   "title": "Maionese Caseira",
-  "description": "",
+  "description": "Maionese caseira feita em segundos com a varinha mágica.",
   "prepTime": 5,
+  "servings": 6,
   "difficulty": "fácil",
-  "tags": ["maionese", "molho", "ervas"],
+  "tags": ["base", "molho", "rápido"],
   "ingredients": [
-    { "name": "Ovo", "quantity": 1, "unit": "g" },
-    { "name": "Sal", "quantity": "q.b."},
-    { "name": "Óleo", "quantity": 150, "unit": "ml" }
+    { "name": "ovo", "quantity": 1, "unit": "un" },
+    { "name": "sal", "quantity": "q.b." },
+    { "name": "óleo", "quantity": 150, "unit": "ml" }
   ],
   "steps": [
-    "Juntar todos os ingredientes num copo alto.",
-    "Triturar os ingredientes com a varinha mágica emulsionar."
+    "Junta todos os ingredientes num copo alto.",
+    "Tritura com a varinha mágica até emulsionar."
   ],
-    "notes": "Podes adicionar alho picado e ervas (salsa ou coentros) para dar um toque extra de sabor ;)"
+  "notes": "Podes adicionar alho picado e ervas (salsa ou coentros) para dar um toque extra de sabor ;)"
 }

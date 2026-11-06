@@ -1,30 +1,29 @@
 {
   "title": "Cheesecake",
-  "description": "",
+  "description": "Cheesecake sem forno com base de bolacha Maria, creme de queijo e cobertura de frutos vermelhos.",
   "prepTime": 30,
   "servings": 8,
   "difficulty": "média",
-  "tags": ["sobremesa", "frutos vermelhos"],
+  "tags": ["sobremesa", "bolacha", "frutos vermelhos", "frigorífico"],
   "ingredients": [
-        { "name": "Bolacha Maria", "quantity": 400, "unit": "g" },
-        { "name": "Manteiga", "quantity": 200, "unit": "g" },
-        { "name": "Queijo Philadelphia", "quantity": 300, "unit": "g" },
-        { "name": "Natas", "quantity": 400, "unit": "ml" },
-        { "name": "Açúcar em pó", "quantity": 100, "unit": "g" },
-        { "name": "Folhas de gelatina", "quantity": 4, "unit": "un" },
-        { "name": "Aroma de baunilha", "quantity": 1, "unit": "c. café" },
-        { "name": "Doce de frutos vermelhos", "quantity": 150, "unit": "g" }
-
+    { "name": "bolacha Maria", "quantity": 400, "unit": "g" },
+    { "name": "manteiga", "quantity": 200, "unit": "g" },
+    { "name": "queijo Philadelphia", "quantity": 300, "unit": "g" },
+    { "name": "natas", "quantity": 400, "unit": "ml" },
+    { "name": "açúcar em pó", "quantity": 100, "unit": "g" },
+    { "name": "folhas de gelatina", "quantity": 4, "unit": "un" },
+    { "name": "aroma de baunilha", "quantity": 1, "unit": "c. café" },
+    { "name": "doce de frutos vermelhos", "quantity": 150, "unit": "g" }
   ],
   "steps": [
-    "Triturar finamente as bolachas, juntar a manteiga derretida e misturar bem.",
-    "Colocar numa forma de aro amovível com 16 cm e espalhar em toda a superfície, pressionando bem.",
-    "Bater o queijo Philadelphia com as natas até obter uma mistura fofa e leve.",
-    "Juntar o açúcar e o aroma de baunilha e bater mais um pouco.",
-    "Demolhar a gelatina em água fria, escorrer bem e aquecer um pouco no microondas para derreter.",
-    "Incorporar a gelatina no creme de queijo, batendo mais um pouco.",
-    "Verter o preparado por cima da camada de bolacha e levar ao frigorífico  até ficar bem firme.",
-    "Retirar e espalhar por cima o doce de frutos vermelhos, com cuidado para não se misturar com o creme."
+    "Tritura finamente as bolachas, junta a manteiga derretida e mistura bem.",
+    "Coloca numa forma de aro amovível com 16 cm e espalha em toda a superfície, pressionando bem.",
+    "Bate o queijo Philadelphia com as natas até obteres uma mistura fofa e leve.",
+    "Junta o açúcar e o aroma de baunilha e bate mais um pouco.",
+    "Demolha a gelatina em água fria, escorre bem e aquece um pouco no micro-ondas para derreter.",
+    "Incorpora a gelatina no creme de queijo, batendo mais um pouco.",
+    "Verte o preparado por cima da camada de bolacha e leva ao frigorífico até ficar bem firme.",
+    "Retira e espalha por cima o doce de frutos vermelhos, com cuidado para não se misturar com o creme."
   ],
-  "notes": "Tempo total de frigorífico: cerca de 8 horas. Idealmente preparar de véspera."
+  "notes": "Tempo total de frigorífico: cerca de 8 horas. Idealmente, prepara de véspera."
 }

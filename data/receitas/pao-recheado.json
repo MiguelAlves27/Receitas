@@ -1,21 +1,20 @@
 {
   "title": "Pão Recheado",
-  "description": "",
+  "description": "Pão de Rio Maior recheado com queijo, bacon e maionese, gratinado no forno — ideal para partilhar.",
   "prepTime": 20,
   "servings": 10,
   "difficulty": "fácil",
-  "tags": ["entrada", "bacon", "queijo"],
+  "tags": ["entrada", "queijo", "bacon", "forno"],
   "ingredients": [
-        { "name": "Pão de Rio Maior", "quantity": 1, "unit": "un" },
-        { "name": "Queijo Mozzarela Ralado", "quantity": 200, "unit": "g" },
-        { "name": "Bacon", "quantity": 100, "unit": "g" },
-        { "name": "Maionese", "quantity": 150, "unit": "g" }
-
+    { "name": "pão de Rio Maior", "quantity": 1, "unit": "un" },
+    { "name": "queijo mozzarella ralado", "quantity": 200, "unit": "g" },
+    { "name": "bacon", "quantity": 100, "unit": "g" },
+    { "name": "maionese", "quantity": 150, "unit": "g" }
   ],
   "steps": [
-    "Remover o miolo do pão e deixar em forma de 'taça'",
-    "Misturar a maionese, o queijo e o bacon numa tigela.",
-    "Colocar o preparado dentro do pão e levar ao forno a 160°C por 15 minutos até dourar."
+    "Retira o miolo do pão, deixando-o em forma de 'taça'.",
+    "Mistura a maionese, o queijo e o bacon numa tigela.",
+    "Coloca o preparado dentro do pão e leva ao forno a 160°C durante 15 minutos, até dourar."
   ],
   "notes": "Podes usar o miolo do pão para fazer 'tostas caseiras', basta levar ao forno com o pão."
 }

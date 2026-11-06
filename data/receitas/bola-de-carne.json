@@ -4,14 +4,14 @@
   "prepTime": 75,
   "servings": 10,
   "difficulty": "média",
-  "tags": ["salgado", "forno", "fiambre", "queijo"],
+  "tags": ["lanche", "enchidos", "queijo", "forno"],
   "ingredients": [
     {
       "group": "Massa",
       "items": [
         { "name": "água", "quantity": 200, "unit": "g" },
         { "name": "azeite", "quantity": 30, "unit": "g" },
-        { "name": "sal", "quantity": 1, "unit": "tsp" },
+        { "name": "sal", "quantity": 1, "unit": "c. chá" },
         { "name": "farinha tipo 65", "quantity": 400, "unit": "g" },
         { "name": "fermento de padeiro seco", "quantity": 20, "unit": "g" },
         { "name": "gema de ovo, para pincelar", "quantity": 1, "unit": "un" }

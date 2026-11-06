@@ -1,21 +1,22 @@
 {
   "title": "Massa de Pizza",
-  "description": "A massa perfeita para a tua pizza caseira.",
+  "description": "Massa de pizza simples e rápida, para estender fina e rechear a gosto.",
   "prepTime": 10,
+  "servings": 4,
   "difficulty": "fácil",
-  "tags": ["pizza", "massa", "conforto"],
+  "tags": ["base", "pizza", "forno"],
   "ingredients": [
-    { "name": "Farinha", "quantity": 400, "unit": "g" },
-    { "name": "Água", "quantity": 200, "unit": "ml" },
-    { "name": "Fermento padeiro seco", "quantity": 5, "unit": "g" },
-    { "name": "Sal", "quantity": 1, "unit": "tsp" },
-    { "name": "Azeite", "quantity": 50, "unit": "g" }
+    { "name": "farinha", "quantity": 400, "unit": "g" },
+    { "name": "água", "quantity": 200, "unit": "ml" },
+    { "name": "fermento de padeiro seco", "quantity": 5, "unit": "g" },
+    { "name": "sal", "quantity": 1, "unit": "c. chá" },
+    { "name": "azeite", "quantity": 50, "unit": "g" }
   ],
   "steps": [
-    "Aquecer ligeiramente a água com o azeite e o sal.",
-    "Acrescentar o fermento e a farinha e envolver.",
-    "Deixar a massa repousar por 30 minutos.",
-    "Estender a massa fina e rechear a gosto."
+    "Aquece ligeiramente a água com o azeite e o sal.",
+    "Acrescenta o fermento e a farinha e envolve.",
+    "Deixa a massa repousar 30 minutos.",
+    "Estende a massa fina e recheia a gosto."
   ],
-  "notes": "Se a massa estiver muito pegajosa, adicionar um pouco mais de farinha."
+  "notes": "Se a massa estiver muito pegajosa, adiciona um pouco mais de farinha."
 }

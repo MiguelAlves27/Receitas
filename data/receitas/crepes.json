@@ -1,27 +1,26 @@
 {
   "title": "Massa de Crepes",
-  "description": "",
+  "description": "Massa de crepes fininha e versátil, para rechear com doce ou salgado.",
   "prepTime": 5,
+  "servings": 5,
   "difficulty": "fácil",
-  "tags": ["sobremesa", "Crepes", "massa"],
+  "tags": ["base", "crepes", "rápido"],
   "ingredients": [
-        { "name": "Farinha", "quantity": 100, "unit": "g" },
-        { "name": "Açucar", "quantity": 1, "unit": "tbsp" },
-        { "name": "Leite", "quantity": 2, "unit": "dl" },
-        { "name": "Ovo", "quantity": 1, "unit": "un" },
-        { "name": "Margarina", "quantity": 1, "unit": "tsp" },
-        { "name": "Sal", "quantity": "q.b."}
-
-
+    { "name": "farinha", "quantity": 100, "unit": "g" },
+    { "name": "açúcar", "quantity": 1, "unit": "c. sopa" },
+    { "name": "leite", "quantity": 200, "unit": "ml" },
+    { "name": "ovo", "quantity": 1, "unit": "un" },
+    { "name": "margarina", "quantity": 1, "unit": "c. chá" },
+    { "name": "sal", "quantity": "q.b." }
   ],
   "steps": [
-    "Misturar a farinha com o açucar.",
-    "Adicionar o leite ligeiramente batido com o ovo e mexer com uma vara de arames.",
-    "Acrescentar a margarina derretida e temperar com uma pitada de sal e mexer bem.",
-    "Bater com uma vara de arames até obter uma massa lisa e sem grumos.",
-    "Deixar repousar por 30 minutos (evita que a massa fique elástica).",
-    "Numa frigideira antiaderente, aquecer e quando estiver bem quente colocar a massa.",
-    "Quando estiver dourada, virar o crepe e deixar cozinhar do outro lado."
+    "Mistura a farinha com o açúcar.",
+    "Adiciona o leite ligeiramente batido com o ovo e mexe com uma vara de arames.",
+    "Acrescenta a margarina derretida, tempera com uma pitada de sal e mexe bem.",
+    "Bate com uma vara de arames até obteres uma massa lisa e sem grumos.",
+    "Deixa repousar 30 minutos (evita que a massa fique elástica).",
+    "Aquece bem uma frigideira antiaderente e, quando estiver bem quente, deita uma porção de massa.",
+    "Quando estiver dourado, vira o crepe e deixa cozinhar do outro lado."
   ],
   "notes": "Na massa podes adicionar canela ou raspa de limão."
 }

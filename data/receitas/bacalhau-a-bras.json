@@ -4,7 +4,7 @@
   "prepTime": 30,
   "servings": 4,
   "difficulty": "média",
-  "tags": ["peixe", "tradicional", "conforto"],
+  "tags": ["peixe", "bacalhau", "tradicional", "conforto"],
   "ingredients": [
     { "name": "bacalhau demolhado e desfiado", "quantity": 500, "unit": "g" },
     { "name": "batata palha", "quantity": 300, "unit": "g" },
@@ -13,7 +13,7 @@
     { "name": "dentes de alho picados", "quantity": 2, "unit": "un" },
     { "name": "azeite", "quantity": 100, "unit": "g" },
     { "name": "azeitonas pretas", "quantity": 12, "unit": "un" },
-    { "name": "salsa picada", "quantity": 2, "unit": "tbsp" }
+    { "name": "salsa picada", "quantity": 2, "unit": "c. sopa" }
   ],
   "steps": [
     "Aquece o azeite numa frigideira grande e refoga a cebola e o alho até ficarem translúcidos, sem deixar queimar.",

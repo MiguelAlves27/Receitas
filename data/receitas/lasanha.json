@@ -1,10 +1,10 @@
 {
   "title": "Lasanha de Carne",
-  "description": "Carne, queijo e béchamel em camadas.",
+  "description": "Lasanha clássica com molho de carne, béchamel cremoso e queijo gratinado.",
   "prepTime": 30,
   "servings": 4,
   "difficulty": "média",
-  "tags": ["carne", "tradicional", "conforto"],
+  "tags": ["carne", "massa", "forno", "conforto"],
   "ingredients": [
     {
       "group": "Carne",
@@ -15,9 +15,9 @@
         { "name": "vinho branco", "quantity": 20, "unit": "ml" },
         { "name": "carne moída", "quantity": 500, "unit": "g" },
         { "name": "molho de tomate", "quantity": 200, "unit": "ml" },
-        { "name": "sal", "quantity": 1, "unit": "tsp" },
-        { "name": "pimenta preta moída", "quantity": 0.5, "unit": "tsp" },
-        { "name": "magericão", "quantity": "q.b.", "unit": "tsp" }
+        { "name": "sal", "quantity": 1, "unit": "c. chá" },
+        { "name": "pimenta preta moída", "quantity": 0.5, "unit": "c. chá" },
+        { "name": "manjericão", "quantity": "q.b." }
       ]
     },
     {
@@ -25,15 +25,14 @@
       "items": [
         { "name": "manteiga", "quantity": 40, "unit": "g" },
         { "name": "farinha de trigo", "quantity": 90, "unit": "g" },
-        { "name": "leite", "quantity": 750, "unit": "gr" },
-        { "name": "sal, pimenta, noz moscada", "quantity": "q.b.", "unit": "tsp" }
-
+        { "name": "leite", "quantity": 750, "unit": "g" },
+        { "name": "sal, pimenta, noz-moscada", "quantity": "q.b." }
       ]
     },
     {
       "group": "Montagem",
       "items": [
-        { "name": "massa de lasanha", "quantity": "q.b.", "unit": "un" },
+        { "name": "massa de lasanha", "quantity": "q.b." },
         { "name": "queijo", "quantity": 200, "unit": "g" }
       ]
     }
@@ -41,10 +40,10 @@
   "steps": [
     "Aquece o azeite numa frigideira grande e refoga a cebola e o alho até ficarem translúcidos, sem deixar queimar.",
     "Junta a carne moída e deixa apurar 5 minutos em lume médio.",
-    "Junta o molho de tomate, tempera com sal, pimenta e magericão e deixa cozinhar por 5 minutos em lume baixo.",
-    "Acrescenta o vinho branco e deixe evaporar o álcool, mexendo de vez em quando.",
+    "Junta o molho de tomate, tempera com sal, pimenta e manjericão e deixa cozinhar 5 minutos em lume baixo.",
+    "Acrescenta o vinho branco e deixa evaporar o álcool, mexendo de vez em quando.",
     "Num tacho separado, junta todos os ingredientes do béchamel e deixa cozinhar em lume médio, mexendo sempre até engrossar (cuidado para não agarrar).",
-    "Num tabuleiro, coloca uma camada fina de béchamel no fundo para nao agarrar e de seguida a massa de lasanha, seguida de uma camada de carne, uma camada de béchamel e uma camada de queijo. Repete até acabar os ingredientes, finalizando com uma camada de queijo (generosa XD).",
-    "Leva ao forno a 180ºC por 30 minutos ou até o queijo gratinar."
+    "Num tabuleiro, coloca uma camada fina de béchamel no fundo para não agarrar e de seguida a massa de lasanha, seguida de uma camada de carne, uma camada de béchamel e uma camada de queijo. Repete até acabar os ingredientes, finalizando com uma camada de queijo (generosa XD).",
+    "Leva ao forno a 180°C durante 30 minutos ou até o queijo gratinar."
   ]
 }

@@ -4,7 +4,7 @@
   "prepTime": 90,
   "servings": 6,
   "difficulty": "média",
-  "tags": ["arroz", "pato", "tradicional", "forno"],
+  "tags": ["carne", "pato", "arroz", "forno", "tradicional"],
   "ingredients": [
     { "name": "cebola", "quantity": 120, "unit": "g" },
     { "name": "dentes de alho", "quantity": 2, "unit": "un" },
@@ -14,7 +14,7 @@
     { "name": "pato pequeno (até 1300 g), partido em pedaços pequenos", "quantity": 1, "unit": "un" },
     { "name": "chouriço de carne", "quantity": "1/2", "unit": "un" },
     { "name": "bacon", "quantity": 100, "unit": "g" },
-    { "name": "água", "quantity": "q.b.", "unit": "" },
+    { "name": "água", "quantity": "q.b." },
     { "name": "arroz agulha", "quantity": 350, "unit": "g" },
     { "name": "salsa, cortada", "quantity": 20, "unit": "g" }
   ],

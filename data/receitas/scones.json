@@ -1,0 +1,22 @@
+{
+  "title": "Scones",
+  "description": "Scones rápidos e fofos, ideais para o pequeno-almoço ou lanche.",
+  "prepTime": 5,
+  "servings": 6,
+  "difficulty": "fácil",
+  "tags": ["lanche", "pequeno-almoço", "forno"],
+  "ingredients": [
+    { "name": "farinha", "quantity": 250, "unit": "g" },
+    { "name": "leite", "quantity": 100, "unit": "g" },
+    { "name": "manteiga", "quantity": 30, "unit": "g" },
+    { "name": "açúcar", "quantity": 50, "unit": "g" },
+    { "name": "ovo", "quantity": 1, "unit": "un" },
+    { "name": "fermento em pó", "quantity": 1, "unit": "c. chá" },
+    { "name": "sal", "quantity": "q.b." }
+  ],
+  "steps": [
+    "Num recipiente, mistura todos os ingredientes até obteres uma massa homogénea.",
+    "Num tabuleiro forrado com papel vegetal, coloca a massa em pequenas porções, moldando os scones.",
+    "Leva ao forno pré-aquecido a 200°C durante 10 a 15 minutos, ou até ficarem dourados."
+  ]
+}

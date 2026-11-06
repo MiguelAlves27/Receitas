@@ -4,29 +4,29 @@
   "prepTime": 60,
   "servings": 6,
   "difficulty": "média",
-  "tags": ["peixe", "tradicional", "forno", "gratinado"],
+  "tags": ["peixe", "bacalhau", "forno", "tradicional"],
   "ingredients": [
     {
       "group": "Base",
       "items": [
-        { "name": "Queijo mozzarella ralado", "quantity": "q.b."},
-        { "name": "Cebola", "quantity": 200, "unit": "g" },
-        { "name": "Dente de alho", "quantity": 2, "unit": "un" },
-        { "name": "Azeite", "quantity": 50, "unit": "g" },
-        { "name": "Bacalhau demolhado, desfiado e bem escorrido", "quantity": 400, "unit": "g" },
-        { "name": "Batata palha", "quantity": 400, "unit": "g" }
+        { "name": "cebola", "quantity": 200, "unit": "g" },
+        { "name": "dentes de alho", "quantity": 2, "unit": "un" },
+        { "name": "azeite", "quantity": 50, "unit": "g" },
+        { "name": "bacalhau demolhado, desfiado e bem escorrido", "quantity": 400, "unit": "g" },
+        { "name": "batata palha", "quantity": 400, "unit": "g" },
+        { "name": "queijo mozzarella ralado", "quantity": "q.b." }
       ]
     },
     {
       "group": "Béchamel",
       "items": [
-        { "name": "Leite", "quantity": 1, "unit": "L" },
-        { "name": "Farinha", "quantity": 100, "unit": "g" },
-        { "name": "Manteiga", "quantity": 60, "unit": "g" },
-        { "name": "Sal", "quantity": "q.b."},
-        { "name": "Pimenta", "quantity": "q.b." },
-        { "name": "Noz-moscada", "quantity": "q.b."},
-        { "name": "Natas", "quantity": 200, "unit": "g" }
+        { "name": "leite", "quantity": 1, "unit": "L" },
+        { "name": "farinha", "quantity": 100, "unit": "g" },
+        { "name": "manteiga", "quantity": 60, "unit": "g" },
+        { "name": "sal", "quantity": "q.b." },
+        { "name": "pimenta", "quantity": "q.b." },
+        { "name": "noz-moscada", "quantity": "q.b." },
+        { "name": "natas", "quantity": 200, "unit": "g" }
       ]
     }
   ],

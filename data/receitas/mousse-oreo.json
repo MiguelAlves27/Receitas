@@ -1,22 +1,22 @@
 {
   "title": "Mousse de Oreo",
-  "description": "",
+  "description": "Mousse fresca de natas batidas com bolacha Oreo triturada, sem ir ao forno.",
   "prepTime": 15,
+  "servings": 8,
   "difficulty": "fácil",
-  "tags": ["sobremesa", "oreo", "mousse"],
+  "tags": ["sobremesa", "mousse", "bolacha", "frigorífico"],
   "ingredients": [
-        { "name": "Natas para bater (bem frescas)", "quantity": "600", "unit": "ml" },
-        { "name": "Bolacha Oreo", "quantity": 2, "unit": "pack" },
-        { "name": "Folhas de gelatina (sabor neutro)", "quantity": 5, "unit": "un" }
-
+    { "name": "natas para bater (bem frescas)", "quantity": 600, "unit": "ml" },
+    { "name": "bolacha Oreo", "quantity": 2, "unit": "pacote" },
+    { "name": "folhas de gelatina (sabor neutro)", "quantity": 5, "unit": "un" }
   ],
   "steps": [
-    "Num processador, triturar as bolachas Oreo até ficarem em pó.",
-    "Bater as natas até ficarem firmes (precisam de estar bem frescas).",
-    "Amolecer as folhas de gelatina em água fria por 5 minutos, depois escorrer e levar ao microondas por 10 segundos para derreter.",
-    "Misturar a gelatina derretida com as natas batidas e envolver bem.",
-    "Juntar a bolacha Oreo e envolver bem.",
-    "Levar ao frigorífico por pelo menos 2 horas antes de servir."
+    "Num processador, tritura as bolachas Oreo até ficarem em pó.",
+    "Bate as natas até ficarem firmes (precisam de estar bem frescas).",
+    "Amolece as folhas de gelatina em água fria durante 5 minutos, depois escorre e leva ao micro-ondas 10 segundos para derreter.",
+    "Mistura a gelatina derretida com as natas batidas e envolve bem.",
+    "Junta a bolacha Oreo e envolve bem.",
+    "Leva ao frigorífico pelo menos 2 horas antes de servir."
   ],
-   "notes": "Ao invés de triturar os dois pacotes de bolacha Oreo, pode triturar-se apenas um pacote e meio e o outro partir grosseiramente para ficar com pedaços maiores."
+  "notes": "Em vez de triturar os dois pacotes de bolacha Oreo, podes triturar apenas um pacote e meio e partir o resto grosseiramente, para ficares com pedaços maiores."
 }
